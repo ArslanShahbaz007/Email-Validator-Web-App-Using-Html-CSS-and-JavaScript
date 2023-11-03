@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0px 23px;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: gray;
+}
+.logo{
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(49, 143, 36);
+    color: white;
+    border-radius: 8px;
+    /* width: 200px; */
+    /* height: 30px; */
+    padding: 5px;
+}
+main{
+    min-height: 90vh;
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+.container h1{
+    margin-bottom: 20px;
+}
+#resultcont div::first-letter{
+    text-transform: uppercase;
+}
+#resultcont{
+    font-size: 20px;
+    font-weight: 500;
+} 
+h2{
+ margin-bottom: 20px;    
+}
+input{
+    min-width: 244px;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+#resultcont div{
+    padding:5px;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
